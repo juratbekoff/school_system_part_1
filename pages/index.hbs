@@ -1,0 +1,32 @@
+<div class="content-text">
+        <div><h2 class="content-text__h2">Yangiliklar</h2></div>
+        <div>
+          <a class="content__link" href="#"
+            ><p class="content-text__p">Barcha yangiliklar</p></a
+          >
+        </div>
+</div>
+<div class="main-photos">
+          {{#each sms}}
+                <div class="one-card cards">
+                  <div>
+                    <img class="card-img" src="{{url}}" alt="photo" />
+                  </div>
+
+                  <div class="content-bg">
+                    <div class="next_words" style="display: flex;">
+                      
+                      <p>{{time}}</p> 
+                      <p style="margin-left: 5px;">{{date}}</p>
+                      <p style="margin-left: 5px;">| 300</p>
+                        
+                    </div>
+                    <div class="message_h5">
+                        <h5>
+                        {{message}}
+                        </h5>
+                    </div>
+                  </div>
+                </div> 
+        {{/each}}
+</div>

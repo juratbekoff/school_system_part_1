@@ -1,0 +1,21 @@
+      <div class="admin_rules">
+        <a class="admin_apps_part" href="/admin_teachers">Ustozlar</a>
+        <a class="admin_apps_part" href="/admin_system">Maktab tizimi</a>
+        <a class="admin_apps_part" href="/admin_pupils">O'quvchilar</a>
+
+      </div>
+      
+      <h1  class="as_h1">Arizalar:<p style="color: rgba(174, 255, 0, 0.722);"> Ustozlar bo'limi</p></h1>
+
+      {{#each applicate}}
+
+          <ul class="admin_list">
+                  
+              <li>{{name}}</li>
+              <li>{{title}}</li>
+              <li>{{date}}</li>
+              <li>{{message}}</li>
+
+          </ul>
+
+      {{/each}}

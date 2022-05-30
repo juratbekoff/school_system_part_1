@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./main.css" />
+    {{!-- <link rel="stylesheet" href="./login.css"/> --}}
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <title>Document</title>
+
+</head>
+<body>
+    <div class="container">
+        <nav>
+          <div class="nav-log">
+            <img class="navbar-logo" src="./photos/logo.png" alt="logo" />
+          </div>
+
+          <div>
+            <ul class="main__nav__ul">
+              <li class="ul__a">
+                <a class="ul__link one-asosiy" href="/index">Asosiy</a>
+              </li>
+              <li class="ul__a"><a class="ul__link" href="/suggestions">Takliflar</a></li>
+              <li class="ul__a"><a class="ul__link" href="/aplication">Ariza</a></li>
+              <li class="ul__a"><a class="ul__link" href="/contacts">Aloqa</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <!-- <i class="bi bi-search"></i> -->
+            <a href="">
+              <i class="fa fa-search search" style="font-size: 24px"></i>
+            </a>
+            
+            <a href="/admin">
+                <i class="fa fa-user user-admin" style="font-size: 24px"></i>
+            </a>
+        
+          </div>
+
+        </nav>
+
+        <div class="hr-line"></div>
+
+        {{{body}}}
+
+    </div>
+</body>
+
+</html>

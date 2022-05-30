@@ -1,0 +1,16 @@
+    
+      <h1 style="color: white; margin-top:40px; margin-bottom:40px"> Chop etish bo'limi: </h1>
+
+    <form action="/inform_publish" method="post">
+
+        <div class="container-sm">
+            <input name="url" class="publish_inputs" type="text" placeholder="image url">
+            <input name="time" class="publish_inputs" type="text" placeholder="time">
+            <input name="date" class="publish_inputs" type="text" placeholder="date">
+            {{!-- <textarea class="publish_inputs" type="text" placeholder="write message"> --}}
+            <textarea class="publish_inputs" name="message" cols="30" rows="10" placeholder="Write message"></textarea>
+        </div> 
+
+        <button class="admin_button">Send</button>
+     
+    </form>  

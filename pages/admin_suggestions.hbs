@@ -1,0 +1,20 @@
+
+
+      <div class="admin_rules">
+        <a class="admin_suggestions" href="/admin_suggestions">Takliflar</a>
+        <a class="admin_aplication" href="/admin_aplication">Arizalar</a>
+      </div>
+      
+      <h1 class="as_h1">Takliflar bo'limi</h1>
+
+      {{#each arr}}
+      
+      <ul class="admin_list">
+          <li>{{name}}</li>
+          <li>{{grade}}</li>
+          <li>{{date}}</li>
+          <li>{{title}}</li>
+          <li>{{message}}</li>
+      </ul>
+
+      {{/each}}

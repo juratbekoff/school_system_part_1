@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    /* background-color: rgba(65, 231, 231, 0.192); */
+    /* background: linear-gradient(120deg,aqua,rgb(255, 0, 234)); */
+    background: linear-gradient(120deg,rgba(1, 41, 133, 0.863),rgb(255, 0, 234));
+
+}
+.box{
+    /* margin-top: 100px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    width: 300px;
+    height: 250px;
+    background-color: white;
+    border: 1px solid rgba(119, 119, 119, 0.349);
+    border-radius: 20px;
+}
+.input_box{
+    display: flex;
+    gap: 5px;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+}
+.h1_login{
+    font-family: sans-serif;
+    /* color: black; */
+    color: rgb(0, 89, 255);
+
+}
+.input_login{
+    width: 200px;
+    height: 40px;
+    border-radius: 7px;
+    border: none;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.349);
+    padding-left: 10px;
+}
+.input_login:focus {
+    transition-duration: 0.2s;
+    border:1px solid rgb(0, 89, 255);
+    box-shadow: 0px 0px 7px 1px rgba(0, 89, 255, 0.568) ;
+
+}
+.input_password{
+    width: 200px;
+    height: 40px;
+    border-radius: 7px;
+    border: none;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.349);
+    padding-left: 10px;
+}
+.input_password:focus {
+    transition-duration: 0.2s;
+    border:1px solid rgb(0, 89, 255);
+    box-shadow: 0px 0px 7px 1px rgba(0, 89, 255, 0.568) ;
+
+}
+.button_login{
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    /* border: 1px solid #777; */
+    cursor: pointer;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: rgb(0, 89, 255);
+    color: white;
+}
+.button_login:hover{
+    background-color: rgb(2, 5, 206);
+    cursor: pointer;
+    opacity: 1;
+}
+.button_login:focus{
+    border:1px solid rgb(0, 89, 255);
+    box-shadow: 0px 0px 7px 2px rgba(0, 89, 255, 0.726) ;
+}
+
+
